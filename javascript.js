@@ -14,4 +14,9 @@ function writefunction()
 {
     document.write("Click<br>");
     document.write("subtext".substring(1,3));
+    console.log(5+7);
+}
+function alerttest()
+{
+    alert("click ok");
 }
