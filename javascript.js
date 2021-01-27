@@ -10,3 +10,8 @@ function showtext()
 {
     document.getElementById("demo").style.display = "block";
 }
+function writefunction()
+{
+    document.write("Click<br>");
+    document.write("subtext".substring(1,3));
+}
