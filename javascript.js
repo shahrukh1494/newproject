@@ -20,5 +20,5 @@ function add() {
     first = document.getElementById("firstnum").value;
     sec = document.getElementById("secnum").value;
     sum = Number(first, 10) + Number(sec, 10);
-    document.getElementById("add").innerHTML = "The sum is "+sum;
+    document.getElementById("add").innerHTML = "The sum is " +sum;
 }
