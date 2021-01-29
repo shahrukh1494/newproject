@@ -13,6 +13,15 @@
         <br><br>
         <button type="button" onclick="writefunction(); alerttest()">click to overwrite</button>
         <br><br><br>
-        <button onclick="window.print()">Print this page</button>
+        <button onclick="window.print()">Print this page</button><br><br>
+
+        <form action="/page1.html">
+        <label for="firstnumber">Enter first number</label>
+        <input type="number" id="firstnum"></input><br>
+        <label for="secondnumber">Enter second number</label>
+        <input type="number" id="secnum"></input><br>
+        <button type="button" onclick="add()">Add</button>
+        <p id="add"></p>
+        </form>
     </body>
 </html>

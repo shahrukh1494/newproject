@@ -20,3 +20,11 @@ function alerttest()
 {
     alert("click ok");
 }
+function add()
+{
+    var first, sec, sum;
+    first = document.getElementById("firstnum").value;
+    sec = document.getElementById("secnum").value;
+    sum = Number(first) + parseInt(sec, 10);
+    document.getElementById("add").innerHTML = "The sum is "+sum;
+}
