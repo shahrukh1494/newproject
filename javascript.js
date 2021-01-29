@@ -1,22 +1,22 @@
-function clickevent()
+function clickEvent()
 {
     document.getElementById("demo").innerHTML = "See it works!";
 }
-function hidetext()
+function hideText()
 {
     document.getElementById("demo").style.display = "none";
 }
-function showtext()
+function showText()
 {
     document.getElementById("demo").style.display = "block";
 }
-function writefunction()
+function writeFunction()
 {
     document.write("Click<br>");
     document.write("subtext".substring(1,3));
     console.log(5+7);
 }
-function alerttest()
+function alertTest()
 {
     alert("click ok");
 }
