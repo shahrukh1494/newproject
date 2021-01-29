@@ -1,30 +1,24 @@
-function clickEvent()
-{
+function clickEvent() {
     document.getElementById("demo").innerHTML = "See it works!";
 }
-function hideText()
-{
+function hideText() {
     document.getElementById("demo").style.display = "none";
 }
-function showText()
-{
+function showText() {
     document.getElementById("demo").style.display = "block";
 }
-function writeFunction()
-{
+function writeFunction() {
     document.write("Click<br>");
     document.write("subtext".substring(1,3));
     console.log(5+7);
 }
-function alertTest()
-{
+function alertTest() {
     alert("click ok");
 }
-function add()
-{
+function add() {
     var first, sec, sum;
     first = document.getElementById("firstnum").value;
     sec = document.getElementById("secnum").value;
-    sum = Number(first) + parseInt(sec, 10);
+    sum = Number(first, 10) + Number(sec, 10);
     document.getElementById("add").innerHTML = "The sum is "+sum;
 }
