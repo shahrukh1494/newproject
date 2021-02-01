@@ -16,9 +16,10 @@ function alertTest() {
     alert("click ok");
 }
 function add() {
-    var first, sec, sum;
+    let first, sec, sum;
     first = document.getElementById("firstnum").value;
     sec = document.getElementById("secnum").value;
     sum = Number(first, 10) + Number(sec, 10);
-    document.getElementById("add").innerHTML = "The sum is " +sum;
+    document.getElementById("add").innerHTML = "The sum is " + sum;
+    document.getElementById("addAgain").innerHTML = `The sum again is ${sum} (This time using template literals)`;
 }
