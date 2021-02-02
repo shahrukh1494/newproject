@@ -12,10 +12,10 @@ function writeFunction() {
     document.write("subtext".substring(1,3));
     console.log(5+7);
 }
-function alertTest() {
+let alertTest = () => {
     alert("click ok");
 }
-function add() {
+let additionOfNumbers = () => {
     let first, sec, sum;
     first = document.getElementById("firstnum").value;
     sec = document.getElementById("secnum").value;
@@ -23,3 +23,4 @@ function add() {
     document.getElementById("add").innerHTML = "The sum is " + sum;
     document.getElementById("addAgain").innerHTML = `The sum again is ${sum} (This time using template literals)`;
 }
+let add = additionOfNumbers;
