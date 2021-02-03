@@ -1,6 +1,17 @@
+            h2 {
+              background-color: peru;
+              border-radius: 4px;
+              padding: 8px;
+              color: white;
+            }
             .content {
               max-width: 500px;
               margin: auto;
+              background-color: slategray;
+              border: none;
+              border-radius: 8px;
+              text-align: center;
+              padding: 8px;
             }
             .button1 {
               background-color: green;
