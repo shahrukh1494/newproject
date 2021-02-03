@@ -17,7 +17,17 @@
             }  
             .output1 {
               background-color: tomato;
+              border-radius: 8px;
+              padding-left: 8px;
             }
             .output2 {
               background-color:rgb(73, 6, 6); color: white;
+              border-radius: 8px;
+              padding-left: 8px;
+            }
+            .formbg {
+              background-color: yellowgreen;
+              border-radius: 8px;
+              display: inline-block;
+              padding: 20px;
             }
