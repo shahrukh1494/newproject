@@ -2,31 +2,8 @@
 <html>
     <head>
         <script src="javascript.js"></script>
-        <style>
-            .content {
-              max-width: 500px;
-              margin: auto;
-            }
-            .button1 {
-              background-color: green;
-              border: none;
-              color: white;
-              padding: 8px;
-              text-align: center;
-              text-decoration: none;
-              display: inline-block;
-              font-size: 12px;
-              margin: 4px 2px;
-              cursor: pointer;
-              border-radius: 4px;
-            }  
-            .output1 {
-              background-color: tomato;
-            }
-            .output2 {
-              background-color:rgb(73, 6, 6); color: white;
-            }
-        </style>
+        <link rel="stylesheet" href="styles.css">
+        
     </head>
     <body>
         <div class = "content">
@@ -43,9 +20,9 @@
         <button class="button1" onclick="window.print()">Print this page</button><br><br>
 
         <form action="/page1.html">
-        <label for="firstnumber">Enter first number</label>
-        <input type="number" id="firstnum" placeholder="enter first number"></input><br>
-        <label for="secondnumber">Enter second number</label>
+        <label for="firstnumber">Enter first number</label><br>
+        <input type="number" id="firstnum" placeholder="enter first number"></input><br><br>
+        <label for="secondnumber">Enter second number</label><br>
         <input type="number" id="secnum" placeholder="enter second number"></input><br>
         <button class="button1" type="button" onclick="add()">Add</button>
         <p class="output1" id="add"></p>

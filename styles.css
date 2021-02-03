@@ -1,0 +1,23 @@
+            .content {
+              max-width: 500px;
+              margin: auto;
+            }
+            .button1 {
+              background-color: green;
+              border: none;
+              color: white;
+              padding: 8px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 12px;
+              margin: 4px 2px;
+              cursor: pointer;
+              border-radius: 4px;
+            }  
+            .output1 {
+              background-color: tomato;
+            }
+            .output2 {
+              background-color:rgb(73, 6, 6); color: white;
+            }
