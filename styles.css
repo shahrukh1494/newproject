@@ -50,5 +50,13 @@
                 border-radius: 4px;
                 border: none;
                 text-align: center;
+                margin: 4px;
                 padding: 6px;
+                transition: 0s;
+            }
+            .inputbox:hover {
+                box-shadow: 0 0 8px black;
+            }
+            .button1:hover {
+                box-shadow: 0 0 2px black;
             }
