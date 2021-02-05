@@ -76,3 +76,14 @@
               border-collapse: collapse;
               padding: 15px;
             }
+
+            #demotable tr:nth-child(even) {
+              background-color: #eee;
+            }
+            #demotable tr:nth-child(odd) {
+              background-color: #fff;
+            }
+            th {
+              color: white;
+              background-color: black;
+            }
