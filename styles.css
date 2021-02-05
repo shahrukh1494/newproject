@@ -7,7 +7,7 @@
               box-shadow: 5px 5px 10px black;
             }
             .content {
-              max-width: 500px;
+              max-width: 800px;
               margin: auto;
               background-color: lightskyblue;
               border: none;
@@ -62,4 +62,17 @@
             .button1:hover {
                 box-shadow: 0 0 2px black;
                 opacity: 1;
+            }
+
+            caption{
+              font-size: large;
+              margin: 10px;
+              
+            }
+            table, th, td {
+              width: 100%;
+              table-layout: fixed;
+              border: 1px solid black;
+              border-collapse: collapse;
+              padding: 15px;
             }

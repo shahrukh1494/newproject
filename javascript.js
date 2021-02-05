@@ -24,3 +24,26 @@ let additionOfNumbers = () => {
     document.getElementById("addAgain").innerHTML = `The sum again is ${sum} (This time using template literals)`;
 }
 let add = additionOfNumbers;
+
+let tableToArray = [];
+
+$("table#demotable tr").each(function() {
+    let rowDataArray = [];
+    let actualData = $(this).find('td');
+    if (actualData.length > 0) {
+       actualData.each(function() {
+          rowDataArray.push($(this).text());
+       });
+       tableToArray.push(rowDataArray);
+    }
+ });
+ console.log(tableToArray);
+
+
+/*let savingsFunction = () => {
+    let earnings, expense, saved;
+    earnings = document.getElementById("").value;
+    expense = document.getElementById("").value;
+    saved = Number(earnings) - Number(expense);
+    document.getElementById("").innerHTML = saved;
+} */
