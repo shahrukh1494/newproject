@@ -136,3 +136,14 @@
             li a:hover {
               background-color: #111111;
             }
+
+            /*footer */
+            footer {
+              background-color: peru;
+              border-radius: 4px;
+              padding: 8px;
+              color: white;
+              margin-top: 12px;
+              text-shadow: -1px 0 3px black, 0 1px 3px black, 1px 0 3px black, 0 -1px 3px black;
+              box-shadow: 5px 5px 10px black;
+            }
