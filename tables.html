@@ -2,16 +2,20 @@
 <html>
     <title>Tables</title>
     <head>
+        <script src="javascript.js"></script>
         <link rel="stylesheet" href="styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--for responsive design-->
     </head>
-    <body>
+    <body onload="dispDate()">
         <div class="content">
         <h2>Table demo</h2>
+
+        <!--Navbar with unordered list-->
         <ul>
             <li><a href="page1.html">PAGE1</a></li>
             <li><a href="tables.html">TABLES PAGE</a></li>
         </ul>
+        <p id="date"></p> <!-- date -->       
         <table id="demo_table">
             <caption><b>Yearly Savings</b></caption>
             <tr>
@@ -87,6 +91,7 @@
                 <td>0</td>
             </tr>
         </table>
+        
         <footer>Footer</footer>
         </div>
     </body>

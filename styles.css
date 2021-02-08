@@ -19,6 +19,13 @@
               padding: 8px;
               box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             }
+
+            #date {
+              text-align: right;
+              color: white;
+              text-shadow: 2px 2px 2px black;
+            }
+
             .button1 {
               background-color: green;
               border: none;
