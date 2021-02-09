@@ -17,15 +17,22 @@ function writeFunction() {
 let alertTest = () => {
     alert("click ok");
 }
-let additionOfNumbers = () => {
+let add = () => {
     let first, sec, sum;
     first = document.getElementById("firstnum").value;
     sec = document.getElementById("secnum").value;
-    sum = Number(first) + Number(sec);
-    document.getElementById("add").innerHTML = "The sum is " + sum;
-    document.getElementById("addAgain").innerHTML = `The sum again is ${sum} (This time using template literals)`;
+    if (first < 1 || first === "") {
+        document.getElementById("add").innerHTML = "Invalid Input! Please enter a positive number";
+    }
+    else if (sec < 1 || sec === "") {
+        document.getElementById("add").innerHTML = "Invalid Input! Please enter a positive number";
+    }
+    else {
+        sum = Number(first) + Number(sec);
+        //document.getElementById("add").innerHTML = "The sum is " + sum;
+        document.getElementById("add").innerHTML = `The sum is ${sum}`;
+    }
 }
-let add = additionOfNumbers;
 
 //fuction to display current day of the month and date
 let dispDate = () => {
