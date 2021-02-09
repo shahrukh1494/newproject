@@ -41,12 +41,18 @@
               opacity: 0.9;
               outline: none;
             }  
-            #add {
-              background-color: tomato;
+            
+            .outputbgbefore {
               border-radius: 8px;
               padding: 6px;
             }
 
+            .outputbg {
+              background-color: tomato;
+              border-radius: 8px;
+              padding: 6px;
+            }
+            
             .formbg {
               background-color: yellowgreen;
               border-radius: 8px;

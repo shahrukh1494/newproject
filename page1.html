@@ -5,6 +5,7 @@
       <script src="javascript.js"></script>
       <link rel="stylesheet" href="styles.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--for responsive design-->
+
     </head>
     <body onload="dispDate()">
         <div class = "content">
@@ -32,9 +33,9 @@
             <input class="inputbox" type="number" id="firstnum" placeholder="enter first number"><br><br>
             <label for="secnum">Enter second number</label><br>
             <input class="inputbox" type="number" id="secnum" placeholder="enter second number"><br>
-            <button class="button1" type="button" onclick="add()">Add</button>
+            <button class="button1" type="button" onclick="add(); change()">Add</button>
           </div>
-          <p id="add">&nbsp;&nbsp;</p>
+          <p class="outputbgbefore" id="add">&nbsp;</p>
         </form>
         <footer>Footer</footer>
         </div>

@@ -34,6 +34,10 @@ let add = () => {
     }
 }
 
+let change = () => {
+    document.getElementById("add").className = "outputbg";
+} 
+
 //fuction to display current day of the month and date
 let dispDate = () => {
     let n =  new Date();
